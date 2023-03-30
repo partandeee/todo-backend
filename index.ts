@@ -25,7 +25,7 @@ const openDb = (): Pool => {
     database: 'todo_aank',
     password: '1mchwaciM931fVsW9a2INZo1XCKMv0fK',
     port: 5432,
-    //ssl: true
+    ssl: true
   });
   return pool;
 };
